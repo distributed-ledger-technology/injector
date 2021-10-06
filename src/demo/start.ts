@@ -1,14 +1,7 @@
-# Injector
-
-Dependency injection as simple as it gets.
-
-## Usage Example
-```ts
 
 import { Animal } from "./animal.ts"
 import { Dog } from "./dog.ts"
 import { Horse } from "./horse.ts"
-
 import { Registry } from "../registry.ts"
 
 const registry = new Registry()
@@ -21,6 +14,3 @@ myDog.tellMeHowManyGoodiesDoYouLike()
 
 const myHorse: Animal = new (registry.get('Horse'))(2)
 myHorse.tellMeHowManyGoodiesDoYouLike()
-
-
-```
