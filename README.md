@@ -1,6 +1,6 @@
 # Dependency Injection
 
-Dependency injection via dependency lookup as simple as it gets.
+This module can be used to prepare for dynamic dependency injection - e.g. via [constructor injection](https://github.com/distributed-ledger-technology/cash-services/blob/main/volatility-farmer/start-volatility-farmer.ts#L26-L37). 
 
 ## Usage Example
 
@@ -38,10 +38,6 @@ deno run https://deno.land/x/injector/src/demo/start-demo.ts
 
   
 #### Further Details
-If you want to check a project which uses this module, you might want to visit [Cash Services](https://github.com/distributed-ledger-technology/cash-services/blob/main/volatility-farmer/start-volatility-farmer.ts#L26-L37).  
-
-
-
 
 If you e.g. prefer an annotation based approach check the [inject module](https://deno.land/x/inject).
 
