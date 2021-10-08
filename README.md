@@ -30,13 +30,18 @@ myHorse.tellMeHowManyGoodiesDoYouLike()
 ## Test it via your console
 
 ```sh
+
 deno run https://deno.land/x/injector/src/demo/start-demo.ts
+
 ```
 
-## Example Project which uses this Module
-https://github.com/distributed-ledger-technology/cash-services/blob/main/volatility-farmer/start-volatility-farmer.ts#L26-L37
+
+  
+#### Further Details
+If you want to check a project which uses this module, you might want to visit [Cash Services](https://github.com/distributed-ledger-technology/cash-services/blob/main/volatility-farmer/start-volatility-farmer.ts#L26-L37).  
 
 
-## Alternative Modules
-If you prefer an annotation based approach you might want to check:  
-https://deno.land/x/inject
+
+
+If you e.g. prefer an annotation based approach check the [inject module](https://deno.land/x/inject).
+
