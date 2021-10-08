@@ -27,11 +27,18 @@ myHorse.tellMeHowManyGoodiesDoYouLike()
 ```
 
 
-## Test it via your console
+## Test it via your Console
 
 ```sh
 
 deno run https://deno.land/x/injector/src/demo/start-demo.ts
+
+```
+## Trigger Unit Tests via your Console
+
+```sh
+
+deno test https://deno.land/x/injector/src/registry.spec.ts
 
 ```
 
