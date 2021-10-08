@@ -8,7 +8,12 @@ export class Registry {
     }
 
     public get(className: string): any {
-        return this.list.get(className)
+        const classFromRegistry = this.list.get(className)
+        if (classFromRegistry === undefined) {
+            throw new Error(`I could not find ${className} in ${this.constructor.name}`)
+        }
+
+        return
     }
 
 }
